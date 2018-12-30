@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "03C9DD141EC1D36900E4CD62"
-               BuildableName = "CircleShooter.app"
-               BlueprintName = "CircleShooter"
-               ReferencedContainer = "container:CircleShooter.xcodeproj">
+               BuildableName = "CoinShooter.app"
+               BlueprintName = "CoinShooter"
+               ReferencedContainer = "container:CoinShooter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03C9DD141EC1D36900E4CD62"
-            BuildableName = "CircleShooter.app"
-            BlueprintName = "CircleShooter"
-            ReferencedContainer = "container:CircleShooter.xcodeproj">
+            BuildableName = "CoinShooter.app"
+            BlueprintName = "CoinShooter"
+            ReferencedContainer = "container:CoinShooter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03C9DD141EC1D36900E4CD62"
-            BuildableName = "CircleShooter.app"
-            BlueprintName = "CircleShooter"
-            ReferencedContainer = "container:CircleShooter.xcodeproj">
+            BuildableName = "CoinShooter.app"
+            BlueprintName = "CoinShooter"
+            ReferencedContainer = "container:CoinShooter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03C9DD141EC1D36900E4CD62"
-            BuildableName = "CircleShooter.app"
-            BlueprintName = "CircleShooter"
-            ReferencedContainer = "container:CircleShooter.xcodeproj">
+            BuildableName = "CoinShooter.app"
+            BlueprintName = "CoinShooter"
+            ReferencedContainer = "container:CoinShooter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

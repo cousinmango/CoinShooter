@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CircleShooter.xcodeproj">
+      location = "self:/Users/ssalpt/Desktop/Seans copy/Xcode 10/CoinShooter/CoinShooter.xcodeproj">
    </FileRef>
 </Workspace>

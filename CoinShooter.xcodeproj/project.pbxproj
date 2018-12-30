@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034FDD5921D7ADA80081A1C9 /* HudNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034FDD5821D7ADA70081A1C9 /* HudNode.swift */; };
 		03C9DD191EC1D36900E4CD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C9DD181EC1D36900E4CD62 /* AppDelegate.swift */; };
 		03C9DD1B1EC1D36900E4CD62 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03C9DD1A1EC1D36900E4CD62 /* GameScene.sks */; };
 		03C9DD1D1EC1D36900E4CD62 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03C9DD1C1EC1D36900E4CD62 /* Actions.sks */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03C9DD151EC1D36900E4CD62 /* CircleShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034FDD5821D7ADA70081A1C9 /* HudNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudNode.swift; sourceTree = "<group>"; };
+		03C9DD151EC1D36900E4CD62 /* CoinShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C9DD181EC1D36900E4CD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C9DD1A1EC1D36900E4CD62 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		03C9DD1C1EC1D36900E4CD62 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		03C9DD0C1EC1D36900E4CD62 = {
 			isa = PBXGroup;
 			children = (
-				03C9DD171EC1D36900E4CD62 /* CircleShooter */,
+				03C9DD171EC1D36900E4CD62 /* CoinShooter */,
 				03C9DD161EC1D36900E4CD62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,17 +54,18 @@
 		03C9DD161EC1D36900E4CD62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03C9DD151EC1D36900E4CD62 /* CircleShooter.app */,
+				03C9DD151EC1D36900E4CD62 /* CoinShooter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03C9DD171EC1D36900E4CD62 /* CircleShooter */ = {
+		03C9DD171EC1D36900E4CD62 /* CoinShooter */ = {
 			isa = PBXGroup;
 			children = (
 				03C9DD181EC1D36900E4CD62 /* AppDelegate.swift */,
 				03C9DD1A1EC1D36900E4CD62 /* GameScene.sks */,
 				03C9DD1C1EC1D36900E4CD62 /* Actions.sks */,
+				034FDD5821D7ADA70081A1C9 /* HudNode.swift */,
 				03C9DD1E1EC1D36900E4CD62 /* GameScene.swift */,
 				03C9DD201EC1D36900E4CD62 /* GameViewController.swift */,
 				03C9DD221EC1D36900E4CD62 /* Main.storyboard */,
@@ -70,15 +73,15 @@
 				03C9DD271EC1D36900E4CD62 /* LaunchScreen.storyboard */,
 				03C9DD2A1EC1D36900E4CD62 /* Info.plist */,
 			);
-			path = CircleShooter;
+			path = CoinShooter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03C9DD141EC1D36900E4CD62 /* CircleShooter */ = {
+		03C9DD141EC1D36900E4CD62 /* CoinShooter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C9DD2D1EC1D36900E4CD62 /* Build configuration list for PBXNativeTarget "CircleShooter" */;
+			buildConfigurationList = 03C9DD2D1EC1D36900E4CD62 /* Build configuration list for PBXNativeTarget "CoinShooter" */;
 			buildPhases = (
 				03C9DD111EC1D36900E4CD62 /* Sources */,
 				03C9DD121EC1D36900E4CD62 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = CircleShooter;
+			name = CoinShooter;
 			productName = CircleShooter;
-			productReference = 03C9DD151EC1D36900E4CD62 /* CircleShooter.app */;
+			productReference = 03C9DD151EC1D36900E4CD62 /* CoinShooter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03C9DD101EC1D36900E4CD62 /* Build configuration list for PBXProject "CircleShooter" */;
+			buildConfigurationList = 03C9DD101EC1D36900E4CD62 /* Build configuration list for PBXProject "CoinShooter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03C9DD141EC1D36900E4CD62 /* CircleShooter */,
+				03C9DD141EC1D36900E4CD62 /* CoinShooter */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +155,7 @@
 				03C9DD1F1EC1D36900E4CD62 /* GameScene.swift in Sources */,
 				03C9DD211EC1D36900E4CD62 /* GameViewController.swift in Sources */,
 				03C9DD191EC1D36900E4CD62 /* AppDelegate.swift in Sources */,
+				034FDD5921D7ADA80081A1C9 /* HudNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,9 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KAT6W73D2W;
-				INFOPLIST_FILE = CircleShooter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoinShooter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Lai-Phong-Tran.CircleShooter";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lai-Phong-Tran.CoinShooter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
@@ -305,9 +309,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KAT6W73D2W;
-				INFOPLIST_FILE = CircleShooter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoinShooter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Lai-Phong-Tran.CircleShooter";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lai-Phong-Tran.CoinShooter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03C9DD101EC1D36900E4CD62 /* Build configuration list for PBXProject "CircleShooter" */ = {
+		03C9DD101EC1D36900E4CD62 /* Build configuration list for PBXProject "CoinShooter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C9DD2B1EC1D36900E4CD62 /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C9DD2D1EC1D36900E4CD62 /* Build configuration list for PBXNativeTarget "CircleShooter" */ = {
+		03C9DD2D1EC1D36900E4CD62 /* Build configuration list for PBXNativeTarget "CoinShooter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C9DD2E1EC1D36900E4CD62 /* Debug */,
